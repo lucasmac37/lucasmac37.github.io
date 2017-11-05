@@ -19,11 +19,13 @@ A common mistake beginners often make is rushing to code an optimal solution wit
 From left to right:
 ```python
 def lcs(a,b):
-	#base case: if one of the list is empty
+    #base case: if one of the list is empty
     if not len(a) or not len(b): return 0
-    #inductive step: if current char matches, answer would be 1 plus the answer for subproblem
+    #inductive step: if current char matches,
+    #answer would be 1 plus the answer for subproblem
     if a[0]==b[0]: return 1+lcs(a[1:], b[1:])
-    #inductive step: if current char doesn't match, aswer would be the max of two subproblems
+    #inductive step: if current char doesn't match,
+    #aswer would be the max of two subproblems
     else: return max(lcs(a, b[1:]), lcs(a[1:], b))
 ```
 Or from right to left:

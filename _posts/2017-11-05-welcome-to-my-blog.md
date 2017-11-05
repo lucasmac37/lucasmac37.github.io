@@ -1,21 +1,18 @@
 ---
 title:  "Welcome to my blog!"
-header:
-  teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
+[comment]: #header:
+[comment]: #  teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
-  - Jekyll
+  - test
 tags:
   - update
 ---
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
+  Well, this is my first time trying out a blog. It took me a while to figure out how to work with jekyll, but thanks to Minimal Mistakes, I don't need to have much knowledge about front-end to get this thing going.
+  Anyway, let's start with some example code here. And I'll keep posting more stuffs in the future~ :)
 
 ```python
-def print_hi():
-  print "Hi"
-print_hi('Tom')
+def print_meaning_of_life():
+  print "42"
+print_meaning_of_life()
 ```
